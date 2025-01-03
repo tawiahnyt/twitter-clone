@@ -5,9 +5,9 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import { v2 as cloudinary } from "cloudinary";
 
-import authRoutes from "./routes/auth.Routes.js";
-import userRoutes from "./routes/user.Routes.js";
-import postRoutes from "./routes/post.Routes.js";
+import authRoutes from "./routes/auth.Route.js";
+import userRoutes from "./routes/user.Route.js";
+import postRoutes from "./routes/post.Route.js";
 
 import connectMongoDB from "./db/connectMongoDB.js";
 
